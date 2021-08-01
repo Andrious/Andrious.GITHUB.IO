@@ -49,10 +49,24 @@
         transform: translate3d(-50%, -50%, 0);
         will-change: transform;
       }
+    
+     .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
     </style>
 </head>
 <body>
-  <div class="spin"></div>
+  <div class="loading">
+     <div class="spin"></div>
+  </div>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
