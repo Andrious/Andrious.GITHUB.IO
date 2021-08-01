@@ -26,18 +26,13 @@
   <title>andrious</title>
   <link rel="manifest" href="manifest.json">
   <style>
-    .loading {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-    }
-    
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid green; 
+}
     
       @keyframes spinner {
         0% {
@@ -65,7 +60,7 @@
     </style>
 </head>
 <body>
-  <div class="loading">
+  <div class="center">
      <div class="spin"></div>
   </div>
   <!-- This script installs service_worker.js to provide PWA functionality to
