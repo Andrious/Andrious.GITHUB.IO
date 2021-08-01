@@ -26,55 +26,33 @@
   <title>andrious</title>
   <link rel="manifest" href="manifest.json">
   <style>
-    .loading {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-    }
-
-    .loader {
-      border: 16px solid #f3f3f3;
-      border-radius: 50%;
-      border: 15px solid ;
-      border-top: 16px solid blue;
-      border-right: 16px solid white;
-      border-bottom: 16px solid blue;
-      border-left: 16px solid white;
-      width: 120px;
-      height: 120px;
-      -webkit-animation: spin 2s linear infinite;
-      animation: spin 2s linear infinite;
-    }
-
-    @-webkit-keyframes spin {
-      0% {
-        -webkit-transform: rotate(0deg);
+      @keyframes spinner {
+        0% {
+          transform: translate3d(-50%, -50%, 0) rotate(0deg);
+        }
+        100% {
+          transform: translate3d(-50%, -50%, 0) rotate(360deg);
+        }
       }
-      100% {
-        -webkit-transform: rotate(360deg);
+      .spin::before {
+        animation: 1.5s linear infinite spinner;
+        animation-play-state: inherit;
+        border: solid 5px #cfd0d1;
+        border-bottom-color: #1c87c9;
+        border-radius: 50%;
+        content: "";
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        transform: translate3d(-50%, -50%, 0);
+        will-change: transform;
       }
-    }
-
-    @keyframes spin {
-      0% {
-        transform: rotate(0deg);
-      }
-      100% {
-        transform: rotate(360deg);
-      }
-    }
-  </style>
+    </style>
 </head>
 <body>
-<div class="loading">
-  <div class="loader"></div>
-</div>
+  <div class="spin"></div>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
