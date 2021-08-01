@@ -26,6 +26,19 @@
   <title>andrious</title>
   <link rel="manifest" href="manifest.json">
   <style>
+    .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+    
+    
       @keyframes spinner {
         0% {
           transform: translate3d(-50%, -50%, 0) rotate(0deg);
@@ -49,18 +62,6 @@
         transform: translate3d(-50%, -50%, 0);
         will-change: transform;
       }
-    
-     .loading {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-    }
     </style>
 </head>
 <body>
