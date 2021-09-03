@@ -15,51 +15,23 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="The Andrious Solutions Website">
+  <meta name="description" content="A new Flutter project.">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="andrious">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
-  <link href="https://gregperrypage.blogspot.com/favicon.ico" rel="icon" type="image/x-icon">
-  <title>Andrious Solutions</title>
+
+  <title>andrious</title>
   <link rel="manifest" href="manifest.json">
-  <style>
-      @keyframes spinner {
-        0% {
-          transform: translate3d(-50%, -50%, 0) rotate(0deg);
-        }
-        100% {
-          transform: translate3d(-50%, -50%, 0) rotate(360deg);
-        }
-      }
-      .spin::before {
-        animation: 1.5s linear infinite spinner;
-        animation-play-state: inherit;
-        border: solid 5px #cfd0d1;
-        border-bottom-color: #1c87c9;
-        border-radius: 50%;
-        content: "";
-        height: 40px;
-        width: 40px;
-        position: absolute;
-        top: 10%;
-        left: 10%;
-        transform: translate3d(-50%, -50%, 0);
-        will-change: transform;
-        justify-content: center;
-        align-items: center;
-      }
-    </style>
 </head>
-<body id="app-container">
-  <div class="spin"></div>
+<body>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '2986349856';
+    var serviceWorkerVersion = '1001878467';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -122,23 +94,5 @@
       loadMainDartJs();
     }
   </script>
-  <!-- The core Firebase JS SDK (always required for using any firebase service) -->
-  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
-  <!-- Firebase Auth SDK -->
-  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
-  <script>
-      // Your web app's Firebase configuration
-      var firebaseConfig = {
-        apiKey: "AIzaSyAiebh5PRrTl4T9GJk0oK1rd2n6rTXZ5-0",
-        authDomain: "explore-2aed1.firebaseapp.com",
-        databaseURL: "https://explore-2aed1.firebaseio.com",
-        projectId: "explore-2aed1",
-        storageBucket: "explore-2aed1.appspot.com",
-        messagingSenderId: "949465561283",
-        appId: "1:949465561283:web:d2ed3a8f7bf1e8b7cc0a76",
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-    </script>
 </body>
 </html>
