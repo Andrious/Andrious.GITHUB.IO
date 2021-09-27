@@ -40043,7 +40043,7 @@ N.kx.prototype={
 gmB(a){return"My Technical Articles"},
 kJ(a){var s={}
 s.a=null
-if($.f7)s.a=$.np.a*0.9
+if($.f7)s.a=$.np.a*0.3
 else s.a=8
 return new A.nc(new N.XQ(s,this),null)}}
 N.XQ.prototype={
@@ -40201,7 +40201,7 @@ return new Q.xK(M.bH(s,new T.di(C.my,T.qK(C.Ne,C.b8,C.hT,C.aE),s),q,s,s,s,s,s,s,
 K.GZ.prototype={
 K(a,b){var s={}
 s.a=null
-if($.f7)s.a=$.np.a*0.9
+if($.f7)s.a=$.np.a*0.3
 else s.a=8
 return new A.nc(new K.a_b(s,this),null)}}
 K.a_b.prototype={
