@@ -40043,12 +40043,12 @@ N.kx.prototype={
 gmB(a){return"My Technical Articles"},
 kJ(a){var s={}
 s.a=null
-if($.f7)s.a=$.np.a*0.3
+if($.f7)s.a=$.np.a*0.15
 else s.a=8
 return new A.nc(new N.XQ(s,this),null)}}
 N.XQ.prototype={
 $2(a,b){var s=null,r=this.a.a,q=this.b,p=q.fr.gpp().length,o=a.X(t.l)
-return new T.dc(new S.az(b.a,b.b,b.c,b.d),M.l2(C.aB,!0,s,B.ast(new B.NG(o.f.a.a<800?3:5,10,1.25),new N.XP(q,b),p,new V.aD(8,8,r,8),!1,!0),C.F,s,0,s,s,s,s,C.bW),s)},
+return new T.dc(new S.az(b.a,b.b,b.c,b.d),M.l2(C.aB,!0,s,B.ast(new B.NG(o.f.a.a<800?3:5,10,1.25),new N.XP(q,b),p,new V.aD(r,8,r,8),!1,!0),C.F,s,0,s,s,s,s,C.bW),s)},
 $S:146}
 N.XP.prototype={
 $2(a,b){return new N.p3(this.a.fr,b,null)},
@@ -40201,7 +40201,7 @@ return new Q.xK(M.bH(s,new T.di(C.my,T.qK(C.Ne,C.b8,C.hT,C.aE),s),q,s,s,s,s,s,s,
 K.GZ.prototype={
 K(a,b){var s={}
 s.a=null
-if($.f7)s.a=$.np.a*0.2
+if($.f7)s.a=$.np.a*0.15
 else s.a=8
 return new A.nc(new K.a_b(s,this),null)}}
 K.a_b.prototype={
