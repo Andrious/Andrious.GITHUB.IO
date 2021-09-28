@@ -40373,25 +40373,26 @@ B.lN.prototype={
 gmA(a){return"Use Case"},
 np(a){var s=null
 return E.Xv(H.a([B.pT(s,C.mR,24,new B.adg(),s)],t.p),s,s,s,C.a3d)},
-kK(a){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g=$.hw,f=$.x8
-f.toString
+kK(a){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=null,f=$.hw,e=$.x8
+e.toString
 s=t.p
 r=H.a([],s)
-if(!g)r.push(M.bH(h,U.f1("assets/images/phone_mist.jpg",C.bn,h,h),h,h,h,300,h,h,h,1/0))
-q=f.a
-p=g?0.1:0.2
-f=f.b
-o=g?0.01:0.35
-n=g?0.1:0.2
-m=K.mm(30)
-l=g?5:80
-k=$.k6
-j=L.cw("Use Case Scenarios",h,h,h,h,h,h,h,A.dn(h,h,h,h,h,h,h,h,h,h,h,(k==null?$.k6=E.d7.prototype.gmg.call(i):k)?24:48,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h,h)
-k=$.k6
-s=H.a([C.mu,C.DT,j,C.mu,L.cw("Help me help you to build the mobile app that you want. \n\nTo give us a better idea, we are going to write up some Use Case Scenarios. They're 'little stories' essentially detailing how the app is suppose to work. They'll help better convey your idea, and help us develop your app faster.\n\nThey also give us an idea how long it will take to make your app. Generally, each 'step' in a Use Case Scenario represents a separate piece of code that will need to be written. The more steps; the more code.\n\nBelow is a Use Case Example: \n\nWITHDRAW MONEY FROM AN ATM MACHINE \n\nPrimary actors: \nCustomer \nATM Technician \nBank \n\nBasic Scenario: \n1.   Customer inserts debit card into the ATM and enters PIN. \n2.   ATM validates PIN. \n3.   ATM displays customer options. \n4.   Customer selects the option, Withdraw Cash. \n5.   ATM prompts the Customer for an amount. \n6.   Customer enters desired amount. \n7.   ATM prompts the Customer to print receipt or not. \n8.   Customer selects to print receipt or not. \n9.   Transaction sent to Bank to determine if sufficient funds and if at withdrawal limit. \n10. ATM dispenses money. \n11. Customer takes money and receipt or not. \n12. ATM prompts the Customer to end or to continue. \n13. Customer selects to end or to continue. \n\nAdditional Alternate Scenarios: \n2a.   Customer PIN is not valid. \n2a1. ATM prompts the Customer to retry. \n\n7a.   Customer enters unavailable amount. \n7a1. ATM prompts the Customer to re-enter amount. \n\n7b.   ATM itself has insufficient funds to dispense to customer. \n7b1. ATM Technician is alerted. \n7b2. ATM notifies customer and prompts for lesser amount. \n\n13a.   Customer selects to end. \n13a1. ATM returns debit card to Customer. \n\n13b.   Customer selects to continue. \n13b1. ATM returns to step 3. \n\n\nSee how that works? It's amazingly effective in developing a useful app. Of course, your Use Case scenarios will likely be many, more lengthy and complicated. You may have to make revisions over and over again, but you'll only make the mobile app that much better. \n                  ",h,h,h,h,h,h,h,A.dn(h,h,h,h,h,h,h,h,h,h,h,(k==null?$.k6=E.d7.prototype.gmg.call(i):k)?16:18,h,h,h,h,!0,h,h,h,h,h,h,h,h),C.ib,h,h)],s)
-k=$.k6
-if(!(k==null?$.k6=E.d7.prototype.gmg.call(i):k)&&i.cy)s.push(C.lF)
-r.push(M.bH(h,T.fx(s,C.bG,C.an,C.aD),h,h,new S.ds(h,h,h,m,h,h,C.a5),h,h,new V.aD(q*p,f*o,q*0.1,f*n),new V.aD(l,l,l,l),h))
+if(!f)r.push(M.bH(g,U.f1("assets/images/phone_mist.jpg",C.bn,g,g),g,g,g,300,g,g,g,1/0))
+q=e.a
+p=f?0:0.2
+e=e.b
+o=f?0.01:0.35
+n=f?0:0.1
+m=f?0.1:0.2
+l=K.mm(30)
+k=f?5:80
+j=$.k6
+i=L.cw("Use Case Scenarios",g,g,g,g,g,g,g,A.dn(g,g,g,g,g,g,g,g,g,g,g,(j==null?$.k6=E.d7.prototype.gmg.call(h):j)?24:48,g,g,g,g,!0,g,g,g,g,g,g,g,g),g,g,g)
+j=$.k6
+s=H.a([C.mu,C.DT,i,C.mu,L.cw("Help me help you to build the mobile app that you want. \n\nTo give us a better idea, we are going to write up some Use Case Scenarios. They're 'little stories' essentially detailing how the app is suppose to work. They'll help better convey your idea, and help us develop your app faster.\n\nThey also give us an idea how long it will take to make your app. Generally, each 'step' in a Use Case Scenario represents a separate piece of code that will need to be written. The more steps; the more code.\n\nBelow is a Use Case Example: \n\nWITHDRAW MONEY FROM AN ATM MACHINE \n\nPrimary actors: \nCustomer \nATM Technician \nBank \n\nBasic Scenario: \n1.   Customer inserts debit card into the ATM and enters PIN. \n2.   ATM validates PIN. \n3.   ATM displays customer options. \n4.   Customer selects the option, Withdraw Cash. \n5.   ATM prompts the Customer for an amount. \n6.   Customer enters desired amount. \n7.   ATM prompts the Customer to print receipt or not. \n8.   Customer selects to print receipt or not. \n9.   Transaction sent to Bank to determine if sufficient funds and if at withdrawal limit. \n10. ATM dispenses money. \n11. Customer takes money and receipt or not. \n12. ATM prompts the Customer to end or to continue. \n13. Customer selects to end or to continue. \n\nAdditional Alternate Scenarios: \n2a.   Customer PIN is not valid. \n2a1. ATM prompts the Customer to retry. \n\n7a.   Customer enters unavailable amount. \n7a1. ATM prompts the Customer to re-enter amount. \n\n7b.   ATM itself has insufficient funds to dispense to customer. \n7b1. ATM Technician is alerted. \n7b2. ATM notifies customer and prompts for lesser amount. \n\n13a.   Customer selects to end. \n13a1. ATM returns debit card to Customer. \n\n13b.   Customer selects to continue. \n13b1. ATM returns to step 3. \n\n\nSee how that works? It's amazingly effective in developing a useful app. Of course, your Use Case scenarios will likely be many, more lengthy and complicated. You may have to make revisions over and over again, but you'll only make the mobile app that much better. \n                  ",g,g,g,g,g,g,g,A.dn(g,g,g,g,g,g,g,g,g,g,g,(j==null?$.k6=E.d7.prototype.gmg.call(h):j)?16:18,g,g,g,g,!0,g,g,g,g,g,g,g,g),C.ib,g,g)],s)
+j=$.k6
+if(!(j==null?$.k6=E.d7.prototype.gmg.call(h):j)&&h.cy)s.push(C.lF)
+r.push(M.bH(g,T.fx(s,C.bG,C.an,C.aD),g,g,new S.ds(g,g,g,l,g,g,C.a5),g,g,new V.aD(q*p,e*o,q*n,e*m),new V.aD(k,k,k,k),g))
 return T.jV(C.bB,r,C.bx)}}
 B.adg.prototype={
 $0(){},
