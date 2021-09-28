@@ -40381,8 +40381,8 @@ if(!f)r.push(M.bH(g,U.f1("assets/images/phone_mist.jpg",C.bn,g,g),g,g,g,300,g,g,
 q=e.a
 p=f?0:0.2
 e=e.b
-o=f?0.55:0.35
-n=f?0:0.2
+o=f?0:0.35
+n=f?1:0.2
 m=f?0.1:0.2
 l=K.mm(30)
 k=f?5:80
