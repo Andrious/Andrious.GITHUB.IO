@@ -40911,10 +40911,10 @@ b.b=q
 if(a)b.b=T.IN(q,3,1)
 p=K.ar(a1).a5.z
 o=a0.a
-n=a?0:0.05
+n=a?0.99:0.05
 a0=a0.b
-m=a?0:0.2
-if(a)l=s?1:0
+m=a?0.99:0.2
+if(a)l=s?1:0.99
 else l=0.05
 if(a)k=s?1:0.5
 else k=0.01
@@ -41059,9 +41059,9 @@ s=$.fe
 r=$.a61===C.eH
 q=K.ar(a).a5.z
 p=d.a
-o=s?0.01:0.05
+o=s?0.99:0.05
 d=d.b
-n=s?0.01:0.2
+n=s?0.99:0.2
 if(s)m=r?1:0.01
 else m=0.05
 if(s)l=r?1:0.5
@@ -41101,10 +41101,10 @@ if(!b){o=e.ca!=null||d
 o=o===!0}else o=!1
 if(o)p.push(M.bm(d,U.ea("assets/images/phone_mist.jpg",C.bh,d,d),d,d,d,300,d,d,d,1/0))
 o=a.a
-n=b?0:0.05
+n=b?0.99:0.05
 a=a.b
-m=b?0:0.45
-if(b)l=s?1:0
+m=b?0.99:0.45
+if(b)l=s?1:0.99
 else l=0.05
 if(b)k=s?1:0.5
 else k=0.01
