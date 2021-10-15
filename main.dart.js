@@ -41051,28 +41051,24 @@ ar(){this.n8()
 var s=this.cu$
 s.toString
 this.ca=t.sb.a(t.cy.a(H.j(s).h("bw.T").a(N.a4.prototype.gT.call(s))))},
-kV(a,b){var s,r,q,p,o,n,m,l,k,j,i,h=null,g=$.iC
-g.toString
+kV(a,b){var s,r,q,p,o,n,m,l,k,j=null,i=$.iC
+i.toString
 s=$.fe
 r=K.ar(a).a5.z
-q=g.a*0.05
-g=g.b
-p=s?0.05:0.2
-s
-if(s)o=0.05
-else o=0.1
-n=K.ii(30)
-m=t.p
-l=H.a([L.ct("The Programming Paradox",h,h,h,h,h,h,h,A.dc(h,h,h,h,h,h,h,h,h,h,h,s?24:48,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h,h),T.dG(h,g*0.05,h)],m)
-k=this.ca
-if(k!=null&&!k.go)l.push(C.Fr)
-k=this.ca
-if(k==null||k.go){k=Q.dH(h,h,r,C.c.V(u.C,0,560))
+q=i.a*0.05
+i=i.b
+p=K.ii(30)
+o=t.p
+n=H.a([L.ct("The Programming Paradox",j,j,j,j,j,j,j,A.dc(j,j,j,j,j,j,j,j,j,j,j,s?24:48,j,j,j,j,!0,j,j,j,j,j,j,j,j),j,j,j),T.dG(j,i*0.05,j)],o)
+m=this.ca
+if(m!=null&&!m.go)n.push(C.Fr)
+m=this.ca
+if(m==null||m.go){m=Q.dH(j,j,r,C.c.V(u.C,0,560))
 r.toString
-j=r.vV(K.ar(a).A.c,C.b9)
-i=N.ro(h)
-i.b4=new G.aiU()
-l.push(T.yr(h,h,C.aK,!0,h,Q.dH(H.a([k,Q.dH(h,i,j," ...read more")],t.VO),h,h,h),C.ag,h,h,1,C.ac))}return H.a([T.dL(M.bm(h,T.dM(l,C.b7,C.a1,C.af),h,h,new S.cx(h,h,h,n,h,h,C.Z),h,h,new V.aq(q,g*p,q,g*o),h,h),h,h)],m)}}
+l=r.vV(K.ar(a).A.c,C.b9)
+k=N.ro(j)
+k.b4=new G.aiU()
+n.push(T.yr(j,j,C.aK,!0,j,Q.dH(H.a([m,Q.dH(j,k,l," ...read more")],t.VO),j,j,j),C.ag,j,j,1,C.ac))}return H.a([T.dL(M.bm(j,T.dM(n,C.b7,C.a1,C.af),j,j,new S.cx(j,j,j,p,j,j,C.Z),j,j,new V.aq(q,i*0.2,q,i*0.1),j,j),j,j)],o)}}
 G.aiU.prototype={
 $0(){T.ig("/paradox")},
 $S:0}
