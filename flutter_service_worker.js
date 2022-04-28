@@ -184,7 +184,7 @@ const RESOURCES = {
 "assets/images/recentImages/hills1.jpeg": "2aefb5b3cea891d5db605ceb49438a63",
 "assets/images/recentImages/skt1.jpeg": "288752bfebc0b485507b4dbcbcdca4c7",
 "assets/images/sunny.png": "bcb3306a08b8a1c94207d7b0c2113acf",
-"assets/NOTICES": "0e9a00dc9ca0a25a786bfeb0e1bb0f2b",
+"assets/NOTICES": "5e6ceebdc2eee78f35865f2772684592",
 "assets/packages/bazaar/fonts/montserrat/Montserrat-Medium.ttf": "0098f804fc2d06af52650e0b8ed3390c",
 "assets/packages/bazaar/fonts/roboto/Roboto-Medium.ttf": "d52f011be65b281ba8ca1c3f689cf133",
 "assets/packages/bazaar/images/c1.jpg": "f7f635cd48bd3932ee5cf5608c033e41",
@@ -352,11 +352,11 @@ const RESOURCES = {
 "favicon.png": "19205ec062764b252dd91b10af350b74",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "3c02f070a2fe7a1a69a4d9d4df90aee2",
-"/": "3c02f070a2fe7a1a69a4d9d4df90aee2",
-"main.dart.js": "52d930cb761fa615df7c3f138732218a",
+"index.html": "b90c0b6b47c97ca893c37c29deca3ed5",
+"/": "b90c0b6b47c97ca893c37c29deca3ed5",
+"main.dart.js": "8a0e92e09107d3ea58b82bbc79c5b093",
 "manifest.json": "59323ea3032ab9287a9098a7feef33d4",
-"version.json": "96fd0d3bdf687a020534a46d971160cf"
+"version.json": "216cc3dcef7e84e58c58015c7da8eac3"
 };
 
 // The application shell files that are downloaded before a service worker can
