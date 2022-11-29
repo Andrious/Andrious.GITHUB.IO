@@ -139,7 +139,7 @@ const RESOURCES = {
 "assets/assets/slanted_menu.png": "e09386cdf2904c4f5faf106267d88c1c",
 "assets/FontManifest.json": "44531fddae588d182a567cdbc8ddeb27",
 "assets/fonts/Electrolize-Regular.ttf": "1be3e0aaeb2bbd1985615a49da7f2eaf",
-"assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/fonts/montserrat/Montserrat-Medium.ttf": "0098f804fc2d06af52650e0b8ed3390c",
 "assets/fonts/Montserrat-Regular.ttf": "ee6539921d713482b8ccd4d0d23961bb",
 "assets/fonts/roboto/Roboto-Medium.ttf": "d52f011be65b281ba8ca1c3f689cf133",
@@ -184,7 +184,7 @@ const RESOURCES = {
 "assets/images/recentImages/hills1.jpeg": "2aefb5b3cea891d5db605ceb49438a63",
 "assets/images/recentImages/skt1.jpeg": "288752bfebc0b485507b4dbcbcdca4c7",
 "assets/images/sunny.png": "bcb3306a08b8a1c94207d7b0c2113acf",
-"assets/NOTICES": "5e6ceebdc2eee78f35865f2772684592",
+"assets/NOTICES": "596d8712db65bf751e2450aed20c02b1",
 "assets/packages/bazaar/fonts/montserrat/Montserrat-Medium.ttf": "0098f804fc2d06af52650e0b8ed3390c",
 "assets/packages/bazaar/fonts/roboto/Roboto-Medium.ttf": "d52f011be65b281ba8ca1c3f689cf133",
 "assets/packages/bazaar/images/c1.jpg": "f7f635cd48bd3932ee5cf5608c033e41",
@@ -345,27 +345,27 @@ const RESOURCES = {
 "assets/packages/shrine_mvc/assets/i10n/i10n.csv": "140ca1909c875fdf52c50e1d44c4a223",
 "assets/packages/shrine_mvc/assets/slanted_menu.png": "e09386cdf2904c4f5faf106267d88c1c",
 "assets/packages/wakelock_web/assets/no_sleep.js": "7748a45cd593f33280669b29c2c8919a",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+"assets/shaders/ink_sparkle.frag": "33aaff54ddfb5430bb58229bfe8ae10e",
+"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
+"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62",
+"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
+"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
 "favicon.png": "19205ec062764b252dd91b10af350b74",
+"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "b90c0b6b47c97ca893c37c29deca3ed5",
-"/": "b90c0b6b47c97ca893c37c29deca3ed5",
-"main.dart.js": "8a0e92e09107d3ea58b82bbc79c5b093",
+"index.html": "97a58f4c866b56bbd732e65889297a09",
+"/": "97a58f4c866b56bbd732e65889297a09",
+"main.dart.js": "7e68b05b7997adefe05526fe21d748e8",
 "manifest.json": "59323ea3032ab9287a9098a7feef33d4",
-"version.json": "216cc3dcef7e84e58c58015c7da8eac3"
+"version.json": "b7d1a243cfeec43f3c08dda5f9b827db"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
-"main.dart.js",
+  "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -464,9 +464,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })
